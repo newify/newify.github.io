@@ -1,2 +1,2 @@
-All the source for the newify Homepage
+Twitter Bootstrap template for newify
 ========
