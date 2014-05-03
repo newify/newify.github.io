@@ -1,2 +1,2 @@
-homepage
+All the source for the newify Homepage
 ========
