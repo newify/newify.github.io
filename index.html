@@ -16,6 +16,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="assets/css/animate-custom.css" rel="stylesheet">
+    <link href="assets/css/iealert/style.css" rel="stylesheet" />
     
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
@@ -29,6 +30,8 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <script src="assets/js/iealert.min.js"></script>
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
@@ -94,7 +97,13 @@
 				<hr>
 				
 				<div class="col-lg-6">
-					<p>Studien belegen: in der gesamten Laufzeit eines Softwareprodukts sind <b>80% der Gesamtkosten</b> der Software Maintenance, oder auch Software Wartung, zuzuordnen. Die Wartung eines Softwareprodukts beschäftigt sich nur zu einem geringen Teil mit Fehlerbehebungen. </p>
+					<p>
+						Studien belegen: in der gesamten Laufzeit eines Softwareprodukts sind <b>80% der Gesamtkosten</b> der Software Maintenance, oder auch Software Wartung, zuzuordnen.
+
+						<img src="assets/img/cycle.png" class="img-responsive" alt="Software Development Cycle"/>
+
+						 Die Wartung eines Softwareprodukts beschäftigt sich nur zu einem geringen Teil mit Fehlerbehebungen. 
+					</p>
 
 					<p>Der größte Teil der Wartungsarbeit liegt in der Implementierung neuer Funktionen, Integrationsthematiken, oder der Anpassung an neuen Techologiegegebenheiten.
 					</p>
@@ -287,6 +296,10 @@
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
 
-	
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $("body").iealert();
+		});
+	</script>
   </body>
 </html>
